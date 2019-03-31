@@ -36,7 +36,11 @@
                 <td class="auto-style5" colspan="2" style="background-color: #666666; color: #FFFFFF">Header</td>
             </tr>
             <tr>
-                <td class="auto-style2" style="background-color: #000000; color: #FFFFFF">Menu</td>
+                <td class="auto-style2" style="background-color: #999999; color: #FFFFFF">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/calendar.aspx">Calendar</asp:HyperLink>
+                    <br />
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CalendarInsert.aspx">CalendarInsert</asp:HyperLink>
+                </td>
                 <td class="auto-style3">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
